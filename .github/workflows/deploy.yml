@@ -71,10 +71,3 @@ jobs:
           bucket: github-actions-static-website-0007
           bucket-region: us-north-1
           dist-folder: ./dist
-  information:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Get code
-        uses: actions/checkout@v7
-      - name: run js action
-        uses: ./.github/actions/deploy-s3-javascript
