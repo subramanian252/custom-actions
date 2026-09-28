@@ -26,4 +26,3 @@ runs:
         echo "cache-used=false" >> $GITHUB_OUTPUT
         npm ci
       shell: bash
-information:
