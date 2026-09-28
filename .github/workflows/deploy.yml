@@ -12,6 +12,8 @@ jobs:
       - name: Cache dependencies and install
         id: cache
         uses: ./.github/actions/cached-deps
+        with:
+          caching: false
       - name: Output-information
         run: echo "Cache used ${{steps.cache.outputs.cache-hit}}"
       - name: Lint code
