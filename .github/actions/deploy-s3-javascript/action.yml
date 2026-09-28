@@ -7,7 +7,7 @@ inputs:
   bucket-region:
     description: 'Region of the S3 bucket'
     required: false
-    default: 'us-north-1'
+    default: 'eu-north-1'
   dist-folder:
     description: 'Path to the distribution folder'
     required: true
